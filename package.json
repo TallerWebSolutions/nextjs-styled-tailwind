@@ -1,0 +1,27 @@
+{
+  "name": "with-typescript-styled-components",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "babel-plugin-macros": "^2.8.0",
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.1.3",
+    "tailwind.macro": "^0.5.10",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "4.1.16",
+    "babel-plugin-styled-components": "^1.10.0",
+    "typescript": "3.5.2"
+  },
+  "license": "ISC"
+}
