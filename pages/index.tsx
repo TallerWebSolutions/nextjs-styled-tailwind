@@ -7,4 +7,8 @@ const Title = styled('h1')`
   ${tw`text-red-500`}
 `
 
-export default () => <Title>My page</Title>
+const SuperTitle = styled(Title)`
+  ${tw`text-blue-500`}
+`
+
+export default () => <SuperTitle>My page</SuperTitle>
